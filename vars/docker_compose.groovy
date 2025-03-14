@@ -1,4 +1,4 @@
 def call(){
-  sh "docker compose up --build"
+  sh "docker compose up -d"
   echo "deployment successful"
 }
